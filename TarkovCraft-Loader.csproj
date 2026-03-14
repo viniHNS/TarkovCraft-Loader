@@ -47,7 +47,6 @@
 
     <Copy SourceFiles="$(TargetPath)" DestinationFolder="$(ModPackageDir)" />
 
-    <!-- Copiar pasta recipes para o pacote -->
     <ItemGroup>
       <RecipeFiles Include="recipes\**\*.*" />
     </ItemGroup>
